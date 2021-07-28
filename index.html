@@ -6,13 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Honda</title>
+    <link rel="icon" href="images/title.png" type="image/x-icon">
 </head>
 <body>
     <header>
-
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light p-0" style="background-color: #264653; ">
+            <div class="container  my-0">
+                <a class="navbar-brand p-0" href="#">
+                    <img width="250px" height="39px" src="images/cbr-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                  </a>
+              <button class="navbar-toggler my-0 py-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+                  <li class="nav-item p-2 me-4">
+                    <a class="nav-link text-white fw-bold"  href="#">Home</a>
+                  </li>
+                  <li class="nav-item p-2 me-4">
+                    <a class="nav-link text-white fw-bold" href="#">Product</a>
+                  </li>
+                  <li class="nav-item p-2 me-4">
+                    <a class="nav-link text-white fw-bold" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item p-2 me-4">
+                    <button type="button" class="btn" style="color: #FFFFFF; background-color: #E76F51;">Log in</button>
+                  </li>
+                  
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        
+     
+      <section style="background-color:#264653; ">
+        <section class="container">
+
+          <div class="row d-flex align-items-center justify-content-around ">
+            
+            <div style="width: 480px;" class="my-3 col-12  col-md-6 col-lg-6 p-2">
+              <p class="text-white-50"> This year the CBR300R brings hot new graphics in two color choices.</p>
+                <h1 class="text-white">Honda CBR 300R</h1>
+                  <p class="text-white-50">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function</p>
+                  <!-- Modal Code --> 
+                  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalToggleLabel">Log in</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Password</label>
+              </div>
+              <button type="submit" class="btn" style="color: #FFFFFF; background-color: #E76F51;">Log in</button>
+              
+            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn" style="color: #FFFFFF; background-color: #E76F51;" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Create an Account</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalToggleLabel2">Create an Account</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn" style="color: #FFFFFF; background-color: #E76F51;">Sign in</button>
+            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn" style="color: #FFFFFF; background-color: #E76F51;" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to Log in</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a class="btn" style="color: #FFFFFF; background-color: #E76F51;"  data-bs-toggle="modal" href="#exampleModalToggle" role="button">Purchase</a>
+                </div>
+
+
+            <div class="col-12 col-md-6 col-lg-6  ">
+              <img width="407px
+              "class="img-fluid" src="images/header-bike.png" alt="">
+          </div>
+
+        </div>
+
+        </section>
+      
+      </section>
+      <!-- home page end -->
     </main>
     <footer>
 
